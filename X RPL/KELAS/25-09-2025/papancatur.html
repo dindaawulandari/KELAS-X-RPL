@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papan catur dinda dwi</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: lightblue; /* 🎨 backround biru muda */
+    }
+    .papan {
+      display: grid;
+      grid-template-columns: repeat(3, 100px);
+      grid-template-rows: repeat(3, 100px);
+      border: 5px solid black;
+    }
+    .kotak {
+      width: 100px;
+      height: 100px;
+    }
+    /* Warna catur */
+    .hitam {
+      background-color: black;
+    }
+    .putih {
+      background-color: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="papan">
+    <div class="kotak hitam"></div>
+    <div class="kotak putih"></div>
+    <div class="kotak hitam"></div>
+
+    <div class="kotak putih"></div>
+    <div class="kotak hitam"></div>
+    <div class="kotak putih"></div>
+
+    <div class="kotak hitam"></div>
+    <div class="kotak putih"></div>
+    <div class="kotak hitam"></div>
+  </div>
+</body>
+</html>
