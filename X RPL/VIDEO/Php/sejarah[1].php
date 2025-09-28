@@ -1,0 +1,1 @@
+<h1>Sejarah SMK Negeri 2 Buduran Sidoarjo</h1>
